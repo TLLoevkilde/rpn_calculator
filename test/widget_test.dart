@@ -12,7 +12,6 @@ import 'package:integration_test/integration_test.dart';
 import 'package:rpn_calculator/main.dart';
 
 void main() {
-  IntegrationTestWidgetsFlutterBinding.ensureInitialized();
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
