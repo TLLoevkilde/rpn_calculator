@@ -30,8 +30,8 @@ class _calculator_screenState extends State<calculator_screen> {
             decoration: BoxDecoration(border: Border.all(color: Colors.black)),
             child: Text(
               calculator.stack.toString(),
-              key: const Key("Stack"),
-              style: const TextStyle(fontSize: 24), // Større fontstørrelse
+              key: Key("Stack"),
+              style: TextStyle(fontSize: 24),
             ),
           ),
           Container(
@@ -39,8 +39,8 @@ class _calculator_screenState extends State<calculator_screen> {
             decoration: BoxDecoration(border: Border.all(color: Colors.black)),
             child: Text(
               display,
-              key: const Key("Display"),
-              style: const TextStyle(fontSize: 36), // Større fontstørrelse
+              key: Key("Display"),
+              style: TextStyle(fontSize: 36),
             ),
           ),
           Row(
